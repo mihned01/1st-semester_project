@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kzb2aok.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="Images/Horizontal_Logo_Negative.png" alt="Company Logo" class="logo-image">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="take_action.html">Take Action</a></li>
+        <li><a href="contract.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<body>
+    <section class="signup-section">
+        <div class="cta-text">
+          <p>
+            Make a difference in your community! Sign up to organize a cleanup, join a workshop, or advocate for change.
+            Together, our small actions can lead to big solutions.
+          </p>
+        </div>
+        <div class="signup-form-container">
+          <h2>Sign Up</h2>
+          <form action="submit_signup.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            
+            <label for="event">Event Type:</label>
+            <select id="event" name="event">
+              <option value="cleanup">Organize a Cleanup</option>
+              <option value="workshop">Join a Workshop</option>
+              <option value="advocacy">Advocate for Change</option>
+            </select>
+            
+            <label for="message">Message (Optional):</label>
+            <textarea id="message" name="message" placeholder="Write a short message..." rows="4"></textarea>
+
+            <div class="community-section">
+              <p><strong>Be a part of our community</strong></p>
+              <p>We’ll send you news and updates on how you can protect nature through activism, donating, events, and more. You can unsubscribe at any time.</p>
+              <label for="email-updates">I would like to get email updates:</label>
+              <div class="email-updates-options">
+                <label for="yes-updates">
+                  <input type="radio" id="yes-updates" name="email-updates" value="yes"> Yes
+                </label>
+                <label for="no-updates">
+                  <input type="radio" id="no-updates" name="email-updates" value="no"> No
+                </label>
+              </div>
+            </div>
+      
+            
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>We aim to create impactful changes by reducing plastic pollution and promoting sustainable practices.</p>
+          </div>
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#action">Take Action</a></li>
+              <li><a href="contract.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+          </div>
+          <div class="footer-section treaty">
+            <h3>Learn More</h3>
+            <a href="https://plasticseurope.org/changingplasticsforgood/global-plastics-treaty/" target="_blank">
+              Global Plastic Treaty
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; OUR WORLD WITHOUT PLASTIC | Student project
+        </div>
+      </footer>
+</body>
+</html>
