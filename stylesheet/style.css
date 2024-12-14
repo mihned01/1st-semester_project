@@ -1544,6 +1544,7 @@ footer {
 
   .journey-grid-item h3 {
     font-size: 1.5em;
+    text-align: center;
   }
 
   .journey-grid-item p {
@@ -1564,6 +1565,7 @@ footer {
 
   .journey-proof p {
     font-size: 1.1em;
+    text-align: center;
   }
 
   .footer-content {
