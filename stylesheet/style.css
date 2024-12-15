@@ -1885,6 +1885,7 @@ footer {
   .guide-section h2 {
     font-size: 2em;
     margin-top: 50px;
+    text-align: center;
   }
 
   .guide-container {
